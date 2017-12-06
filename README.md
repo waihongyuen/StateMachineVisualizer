@@ -8,11 +8,12 @@ The following diagram represents a state machine [[Source]((https://msdn.microso
 
 ![https://msdn.microsoft.com/en-us/library/aa478972.aspx]({{site.baseurl}}/IC171571.gif)
 
-Sometime it is much easier to maintain the states and transactions as in a table below. Empty cells means that there will be no state changes.
+Sometime it is much easier to maintain the states and transactions as in a table below. Empty cells means that there will be no state changes:
 
 ![CSVFILE]({{site.baseurl}}//CsvFile.PNG)
 
-The output of the program would look like this:
+
+Based on state machine tables, the program can visualizes and exports them in different file formats.:
 
 ![GeneratedStateDiagram.PNG]({{site.baseurl}}/GeneratedStateDiagram.PNG)
 
