@@ -1,6 +1,6 @@
 # StateMachineGenerator
 
-This python program visualizes states and transistions which are defined in a CSV File.
+This python program visualizes states and transistions which are defined in a CSV File. The visualization is based on [graphviz](https://pypi.python.org/pypi/graphviz).
 
 Example:
 
@@ -13,7 +13,7 @@ Sometime it is much easier to maintain the states and transactions as in a table
 ![CSVFILE]({{site.baseurl}}//CsvFile.PNG)
 
 
-Based on state machine tables, the program can visualizes and exports them in different file formats.:
+Based on state machine tables, the program can visualizes and exports them in different file formats:
 
 ![GeneratedStateDiagram.PNG]({{site.baseurl}}/GeneratedStateDiagram.PNG)
 
