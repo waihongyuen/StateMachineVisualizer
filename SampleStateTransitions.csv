@@ -1,0 +1,7 @@
+,Switch On,Switch Off,Heat Up,Steam On,Steam Off,Espresso On,Espresso Off,Steam Knob Forward,Steam Knob Backward
+Off,On,,,,,,,,
+On,On,Off,Espresso Ready,,,,,,
+Espresso Ready,,Off,,Steamer Ready,,Make Espresso,,,
+Make Espresso,,,,,,,Espresso Ready,,
+Steamer Ready,,,,,,,,Make Steam,
+Make Steam,,,,,,,,,Steamer Ready

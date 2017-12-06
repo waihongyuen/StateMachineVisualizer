@@ -1,0 +1,17 @@
+digraph {
+	"Make Steam"
+	"Espresso Ready"
+	"Steamer Ready"
+	Off
+	"Make Espresso"
+	On
+	Off -> On [label="Switch On"]
+	On -> Off [label="Switch Off"]
+	On -> "Espresso Ready" [label="Heat Up"]
+	"Espresso Ready" -> Off [label="Switch Off"]
+	"Espresso Ready" -> "Steamer Ready" [label="Steam On"]
+	"Espresso Ready" -> "Make Espresso" [label="Espresso On"]
+	"Make Espresso" -> "Espresso Ready" [label="Espresso Off"]
+	"Steamer Ready" -> "Make Steam" [label="Steam Knob Forward"]
+	"Make Steam" -> "Steamer Ready" [label="Steam Knob Backward"]
+}
