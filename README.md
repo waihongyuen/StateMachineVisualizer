@@ -1,4 +1,4 @@
-# StateMachineGenerator
+# State Machine Visualizer
 
 This python program visualizes states and transistions which are defined in a CSV File. The visualization is based on [graphviz](https://pypi.python.org/pypi/graphviz).
 
